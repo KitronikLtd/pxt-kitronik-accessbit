@@ -1,7 +1,7 @@
 /**
  * Kitronik Accessbit Package
  */
-//% weight=100 color=#00A654 icon="\uf057" block="ACCESS:bit"
+//% weight=100 color=#00A654 icon="\uf056" block="ACCESS:bit"
 namespace Kitronik_ACCESSbit {
 
 	let initalised = false    		//a flag to allow us to initialise without explicitly calling the secret incantation
