@@ -7,7 +7,7 @@ namespace Kitronik_ACCESSbit {
 	let initalised = false    		//a flag to allow us to initialise without explicitly calling the secret incantation
 	
     /**
-     * choise of which barrier to control
+     * choice of which barrier to control
      */
     export enum BarrierSelection {
         //% block="Left"
@@ -40,7 +40,7 @@ namespace Kitronik_ACCESSbit {
 	
 	/*
 		This secret incantation sets up the 180 servos to be in the centre of travel.
-		With the 180 servo set to 90, it allows the servo to both either direction if its set to left or right barrier
+		With the 180 servo set to 90, it allows the servo to move either direction, so it can be used on either the left or right barrier
 	*/
     function secretIncantation(): void {
 		pins.servoWritePin(AnalogPin.P0, 90);
@@ -74,7 +74,7 @@ namespace Kitronik_ACCESSbit {
 				pins.servoWritePin(AnalogPin.P0, 170);
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P0,0);
+			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
 		}
 		else if (barrier == BarrierSelection.Right)
 		{
@@ -84,7 +84,7 @@ namespace Kitronik_ACCESSbit {
 				pins.servoWritePin(AnalogPin.P2, 10);
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P2,0);
+			pins.digitalWritePin(DigitalPin.P2,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
 		}
 		else if (barrier == BarrierSelection.Both)
 		{
@@ -100,13 +100,13 @@ namespace Kitronik_ACCESSbit {
 			}
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P0,0);
+			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
 			pins.digitalWritePin(DigitalPin.P2,0);
 		}
     }
 
     /**
-     * Turn the Lamp on or off
+     * Sound the buzzer a selected number of times for either long or short beeps
      * @param periodOfBuzzer
      */
     //% blockId="kitronik_accessbit_buzzer_control" 
