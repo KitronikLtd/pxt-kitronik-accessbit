@@ -19,7 +19,7 @@ namespace Kitronik_ACCESSbit {
     }
 
 	/**
-     * choise of barrier position
+     * choice of barrier position
      */
     export enum BarrierPosition {
         //% block="Up"
@@ -29,7 +29,7 @@ namespace Kitronik_ACCESSbit {
     }
 	
 	/**
-     * choise of buzzer length
+     * choice of buzzer length
      */
     export enum BuzzerLength {
         //% block="Short Beep"
@@ -74,7 +74,7 @@ namespace Kitronik_ACCESSbit {
 				pins.servoWritePin(AnalogPin.P0, 170);
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
+			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interfered from driving the buzzer
 		}
 		else if (barrier == BarrierSelection.Right)
 		{
@@ -84,7 +84,7 @@ namespace Kitronik_ACCESSbit {
 				pins.servoWritePin(AnalogPin.P2, 10);
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P2,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
+			pins.digitalWritePin(DigitalPin.P2,0);			//written to digital 0 so the servo does not get interfered from driving the buzzer
 		}
 		else if (barrier == BarrierSelection.Both)
 		{
@@ -100,7 +100,7 @@ namespace Kitronik_ACCESSbit {
 			}
 			
 			basic.pause(1000);
-			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interferred from driving the buzzer
+			pins.digitalWritePin(DigitalPin.P0,0);			//written to digital 0 so the servo does not get interfered from driving the buzzer
 			pins.digitalWritePin(DigitalPin.P2,0);
 		}
     }
