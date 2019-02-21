@@ -18,3 +18,16 @@ This package is for the [Kitronik ACCESS:bit] (hhtp://www.kitronik.co.uk/5646)
 ```blocks
     Kitronik_ACCESSbit.buzzerControl(Short, 2)
 ```
+## License
+
+MIT
+
+## Supported targets
+
+* for PXT/microbit
+(The metadata above is needed for package search.)
+
+
+```package
+pxt-kitronik-accessbit=github:KitronikLtd/pxt-kitronik-accessbit
+```
