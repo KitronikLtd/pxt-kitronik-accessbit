@@ -1,6 +1,6 @@
 {
     "name": "pxt-kitronik-accessbit",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Blocks to simplify using Kitronik ACCESS:bit board in PXT",
     "license": "MIT",
     "dependencies": {
