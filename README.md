@@ -10,7 +10,7 @@ This package is for the [Kitronik ACCESS:bit] (http://www.kitronik.co.uk/5646)
 * Move a selected barrier
 
 ```blocks
-	Kitronik_ACCESSbit.barrierControl(Left, Up)
+	Kitronik_ACCESSbit.barrierControl(Up)
 ```
 
 * Sound the buzzer
