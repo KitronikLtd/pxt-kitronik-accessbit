@@ -1,0 +1,18 @@
+{
+    "target": "microbit",
+    "targetVersion": "2.1.8",
+    "name": "pxt-kitronik-accessbit",
+    "meta": {},
+    "editor": "tsprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "_rev": null,
+    "id": "5b625f0e-2a4d-4fda-2aa1-654675bd0e61",
+    "recentUse": 1599552448,
+    "modificationTime": 1599552448,
+    "blobId": null,
+    "blobVersion": null,
+    "blobCurrent": false,
+    "isDeleted": false,
+    "path": "pxt-kitronik-accessbit"
+}
