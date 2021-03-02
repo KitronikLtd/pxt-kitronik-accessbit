@@ -8,7 +8,8 @@
     },
     "files": [
         "README.md",
-        "accessbit.ts"
+        "accessbit.ts",
+        "AutomatedBarrier.md"
     ],
     "testFiles": [
         "tests.ts"
