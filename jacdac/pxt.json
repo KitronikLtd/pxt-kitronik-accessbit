@@ -1,5 +1,6 @@
 {
     "name": "kitronik-accessbit-jacdac",
+    "version": "0.0.1",
     "dependencies": {
         "core": "*",
         "radio": "*",
