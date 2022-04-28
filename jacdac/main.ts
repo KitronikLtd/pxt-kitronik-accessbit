@@ -1,6 +1,9 @@
 namespace modules {
-
-
+    /**
+     * Kitronik ACCESS:bit servo
+     */
+    //% fixedInstance whenUsed block="kitronik accessbit servo"
+    export const kitronikAccessBitServo = new ServoClient("kitronik accessbit servo?dev=self")
 }
 
 namespace servers {
