@@ -6,8 +6,8 @@
         "radio": "*",
         "microphone": "*",
         "pxt-kitronik-accessbit": "github:pelikhan/pxt-kitronik-accessbit",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.10.23",
-        "jacdac-servo-server": "github:microsoft/pxt-jacdac/servo-server#v0.10.23"
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.27",
+        "jacdac-servo-server": "github:microsoft/pxt-jacdac/servo-server#v0.10.27"
     },
     "files": [
         "main.ts",
