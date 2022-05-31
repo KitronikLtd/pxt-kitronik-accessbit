@@ -5,9 +5,9 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "pxt-kitronik-accessbit": "github:pelikhan/pxt-kitronik-accessbit",
-        "jacdac": "github:microsoft/pxt-jacdac#v0.10.31",
-        "jacdac-servo-server": "github:microsoft/pxt-jacdac/servo-server#v0.10.31"
+        "pxt-kitronik-accessbit": "github:KitronikLtd/pxt-kitronik-accessbit",
+        "jacdac": "github:microsoft/pxt-jacdac#v0.10.53",
+        "jacdac-servo-server": "github:microsoft/pxt-jacdac/servo-server#v0.10.53"
     },
     "files": [
         "main.ts",
@@ -17,7 +17,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.1.34",
+        "target": "4.1.45",
         "targetId": "microbit"
     },
     "supportedTargets": [
